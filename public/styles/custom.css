@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: -13px;
+}
+h3 {
+    background: #ffffff;
+    padding-top: 10px;
+    padding-left: 35%;
+    color: #03a9f4;
+
+}
+#about
+{
+    background: #ffffff;
+    padding-top: 10px;
+    padding-left: 28%;
+    color: #03a9f4;
+
+}
+#quemsomos
+{
+    width: 650px;
+    height: 300px;
+    margin-left: 30%;
+    color: rgb(135,135,135);
+}
+
+#equipe
+{
+    font-style:oblique;
+}
+
+
+
+
+ul {
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
+
+li {
+    padding-left:20px;
+}
+/* pagina rodape*/
+
+.direitos
+{
+    font-family: 'Raleway';
+    background-color: #03a9f4; 
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    left: 0px; 
+    right: 0px; 
+    width: auto; 
+    position: relative;
+    bottom: 0; 
+    
+}
+
+.direitos a
+{
+    color: white;
+}
+
+.direitos a:hover   
+{
+    color: #e14343;
+}
+
+.margem_rodape
+{
+    margin-left: 65px;
+}
+
+#logo
+{
+    margin-top: 50px;
+}
+
+
+nav 
+{
+    font-family: 'Raleway';
+    float: center;
+    margin-left:43%;
+    font-size: 15px;
+    
+    
+
+}
+
+nav a 
+{
+    text-decoration: none;
+    color: #4F4E4C;
+
+}
+
+nav a:hover 
+{
+    color: #3bb1d1;
+    /*color:#03a9f4;azul #e14343;vermelho*/
+}
+
+nav a.botao_destaque
+{
+    margin-top: 74px;
+    margin-left: 25px;
+    color: white;
+}
+
+/*learn*/
+#formacao
+{
+    padding-left: 47%;
+}
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+  
+    padding: 16px;
+    margin: 16px;
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 0%;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+
+
+#jobs
+{
+    padding-left: 47%;
+}
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+  
+    padding: 16px;
+    margin: 16px;
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 0%;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
